@@ -11,7 +11,10 @@ public class CalculadoraApplication {
 
 		Calculadora calculadoraDoEdu = new Calculadora();
 		int resultado =  calculadoraDoEdu.dividir(100, 10);
-		System.out.println("O resultado da operação é: " + resultado);
+		System.out.println("O resultado da divisão é: " + resultado);
+
+
+		System.out.println("O resultado da soma de 10 e 23 é: "+ calculadoraDoEdu.somar(10, 23));
 	}
 
 }
